@@ -2,13 +2,18 @@
   "name": "ak-baker.webflow",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "6.3.0"
+  },
   "main": "app.js",
- "scripts": {
-  "start": "node app.js"
+  "scripts": {
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "ejs": "2.5.6",
+    "express": "^4.15.2",
+    "foreman": "2.0.0"
   }
 }
