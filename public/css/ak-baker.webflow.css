@@ -108,6 +108,7 @@ p {
   padding: 63px 40px 16px;
   border-color: #49647b;
   background-color: #fff;
+  font-size: 16px;
 }
 
 .section.section-gray {
@@ -147,6 +148,7 @@ p {
   margin-bottom: 25px;
   font-family: Questrial, sans-serif;
   color: #fff;
+  font-size: 20px;
 }
 
 .hollow-button {
@@ -196,6 +198,7 @@ p {
 
 .section-heading.centered {
   color: #313131;
+  font-size: 16px;
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
@@ -438,7 +441,7 @@ p {
   display: block;
   padding-right: 10px;
   padding-left: 10px;
-  font-size: 17px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -461,7 +464,13 @@ p {
   opacity: 0.94;
 }
 
+.paragraph {
+  font-size: 16px;
+}
+
 .textblock-leftalign {
+  padding-right: 60px;
+  padding-left: 60px;
   text-align: left;
 }
 
@@ -502,9 +511,9 @@ html.w-mod-js *[data-ix="fade-in-bottom-scroll-in"] {
 
 html.w-mod-js *[data-ix="bounce-in-scroll-in"] {
   opacity: 0;
-  -webkit-transform: scale(0.6000000000000001, 0.6000000000000001);
-  -ms-transform: scale(0.6000000000000001, 0.6000000000000001);
-  transform: scale(0.6000000000000001, 0.6000000000000001);
+  -webkit-transform: scale(0.6000000000000002, 0.6000000000000002);
+  -ms-transform: scale(0.6000000000000002, 0.6000000000000002);
+  transform: scale(0.6000000000000002, 0.6000000000000002);
 }
 
 html.w-mod-js *[data-ix="scale-on-scroll"] {
@@ -547,7 +556,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     text-align: left;
   }
   .nav-menu {
-    background-color: #49647b;
+    background-color: #fc7d64;
   }
   .logo-link {
     margin-top: 14px;
@@ -602,11 +611,21 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .project-text {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .image-2 {
+    padding-left: 60px;
+    text-align: left;
+  }
   .image-3 {
     padding-top: 30px;
+    padding-left: 60px;
   }
   .image-4 {
     padding-top: 30px;
+    padding-left: 60px;
   }
   .paragraph {
     margin-bottom: 0px;
@@ -625,6 +644,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .hero-title-wrapper {
     top: 28%;
   }
+  .nav-menu {
+    background-color: #fc7d64;
+  }
   .social-footer {
     position: absolute;
     overflow: visible;
@@ -632,11 +654,20 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .banner {
     height: 450px;
   }
+  .project-text {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .image-2 {
+    padding-left: 0px;
+  }
   .image-3 {
     padding-top: 37px;
+    padding-left: 0px;
   }
   .image-4 {
     padding-top: 37px;
+    padding-left: 0px;
   }
 }
 
